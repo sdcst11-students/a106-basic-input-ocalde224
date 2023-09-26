@@ -11,3 +11,8 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+
+question = "what is the radius of the sphere?:"
+x = input(question)
+x = float(x)
+print(4/3 * 3.14 * x ** 3)

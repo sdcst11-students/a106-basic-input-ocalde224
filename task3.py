@@ -12,3 +12,17 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+question = "What is a?:"
+question2 = "What is b?:"
+question3 = "What is c?:"
+A = input(question)
+A = float(A)
+B = input(question2)
+B = float(B)
+C = input(question3)
+C = float(C) 
+
+x = float((C - B) / A )
+
+print(f"Your answer is {x}")
